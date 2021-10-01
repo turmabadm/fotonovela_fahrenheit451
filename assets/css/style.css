@@ -15,7 +15,9 @@ body {
   position: relative;
   background: transparent;
 }
-
+.tamanho {
+  width: 50%;
+}
 body::before {
   content: "";
   position: fixed;
