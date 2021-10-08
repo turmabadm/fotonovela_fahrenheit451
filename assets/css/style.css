@@ -18,6 +18,12 @@ body {
 .tamanho {
   width: 50%;
 }
+
+
+.capa {
+  width: 70%;
+}  
+
 body::before {
   content: "";
   position: fixed;
@@ -67,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 {
-  font-size: 48px;
+  font-size: 65px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -82,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h2 {
-  font-size: 24px;
+  font-size: 35px;
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -174,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #FF0000;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -362,7 +368,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #FF0000;
   margin: 4px 10px;
 }
 
@@ -601,13 +607,13 @@ section .container {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #fff;
+  color:  #B22222;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid rgba(255, 0, 0, 0.5);
   position: relative;
 }
 
@@ -619,11 +625,12 @@ section .container {
   font-family: "Poppins", sans-serif;
   color: #18d26e;
   margin-bottom: 10px;
+  color:  #B22222;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(220, 220, 220, 0.15);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -650,8 +657,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #FF0000;
+  border: 2px solid #FF0000;
 }
 
 /*--------------------------------------------------------------
@@ -713,7 +720,7 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #18d26e;
+  background: #696969;
   border-color: #18d26e;
 }
 
@@ -726,7 +733,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: #696969;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
@@ -902,7 +909,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color:  #FF0000;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -939,7 +946,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color:  #FF0000;
 }
 
 .contact .php-email-form {
@@ -1173,7 +1180,7 @@ section .container {
 }
 
 .credits a {
-  color: #18d26e;
+  color:  #696969;
   transition: 0.3s;
 }
 
