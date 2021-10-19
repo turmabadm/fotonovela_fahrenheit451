@@ -590,7 +590,7 @@ section .container {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #18d26e !important;
+  background-color: #B22222 !important;
 }
 
 @media (max-width: 767px) {
